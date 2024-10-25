@@ -28,7 +28,9 @@ fi;
 
 mkdir   $TARGET/$PROJECT;
 cd      $TARGET/$PROJECT;
-bash    $ROOT/commands/$STARTER $STARTER $VOGSPHERE $GITHUB
-bash    $ROOT/commands/$CLEAR_DIR $CLEAR_DIR $TARGET/$PROJECT
-bash    $ROOT/commands/$CLONE_DIR $CLONE_DIR $TARGET/$PROJECT
-bash    $ROOT/commands/$COMMIT $COMMIT $TARGET/$PROJECT
+bash    $ROOT/scripts/$STARTER $STARTER $VOGSPHERE $GITHUB
+bash    $ROOT/scripts/$CLEAR_DIR $CLEAR_DIR $TARGET/$PROJECT
+bash    $ROOT/scripts/$CLONE_DIR $CLONE_DIR $TARGET/$PROJECT
+bash    $ROOT/scripts/$COMMIT $COMMIT $TARGET/$PROJECT
+
+bash    $ROOT/commands/pre-commit.sh pre-commit.sh $TARGET/$PROJECT
