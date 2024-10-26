@@ -4,7 +4,7 @@ PROJECT=$1
 VOGSPHERE=$2
 GITHUB=$3
 TARGET=`pwd`
-ROOT=$0
+ROOT=${0%/*}
 
 STARTER=starter.sh
 CLEAR_DIR=clear_dir.sh
