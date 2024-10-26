@@ -23,6 +23,7 @@ case $1 in
             read GITHUB
         fi;
 
+        chmod 777 $ROOT/code_maker.sh
         bash $ROOT/code_maker.sh $PROJECT $VOGSPHERE $GITHUB
     ;;
 esac;

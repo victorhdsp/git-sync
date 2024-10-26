@@ -9,3 +9,4 @@ GITHUB=$3
     echo "git clone $VOGSPHERE $PWD/vogsphere";
     echo "git clone $GITHUB $PWD/github";
 ) > $TARGET/$FILE
+chmod 777 $TARGET/$FILE

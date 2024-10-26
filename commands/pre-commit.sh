@@ -9,3 +9,4 @@ TARGET=$2
     echo "bash $TARGET/clone_dir.sh";
     echo "bash $TARGET/commit.sh";
 ) > $TARGET/github/.git/hooks/$FILE
+chmod 777 $TARGET/github/.git/hooks/$FILE
