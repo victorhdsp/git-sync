@@ -4,7 +4,7 @@ PROJECT=$1
 VOGSPHERE=$2
 GITHUB=$3
 TARGET=`pwd`
-ROOT=$TARGET/${0%/*}
+ROOT="~/git-sync"
 
 STARTER=starter.sh
 CLEAR_DIR=clear_dir.sh
