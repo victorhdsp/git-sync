@@ -10,4 +10,3 @@ TARGET=$2
     echo -e "\trm -rf $TARGET/vogsphere/\$FILE;";
     echo 'done';
 ) > $TARGET/$FILE
-chmod 777 $TARGET/$FILE

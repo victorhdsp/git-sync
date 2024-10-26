@@ -20,4 +20,3 @@ IGNORE=.cloneignore
     echo "echo 'bash    $TARGET/tmp.sh'"
     echo "echo 'rm      $TARGET/tmp.sh'"
 ) > $TARGET/$FILE
-chmod 777 $TARGET/$FILE
