@@ -22,8 +22,6 @@ case $1 in
             echo "Qual o clone do github ?";
             read GITHUB
         fi;
-
-        chmod 777 $ROOT/code_maker.sh
         bash $ROOT/code_maker.sh $PROJECT $VOGSPHERE $GITHUB
     ;;
 esac;
