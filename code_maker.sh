@@ -14,13 +14,10 @@ COMMIT=commit.sh
 mkdir   $TARGET/$PROJECT;
 cd      $TARGET/$PROJECT;
 bash    $ROOT/scripts/$STARTER $STARTER $VOGSPHERE $GITHUB
-chmod 777 $ROOT/scripts/$STARTER
+bash    $TARGET/$STARTER
 bash    $ROOT/scripts/$CLEAR_DIR $CLEAR_DIR $TARGET/$PROJECT
-chmod 777 $ROOT/scripts/$CLEAR_DIR
 bash    $ROOT/scripts/$CLONE_DIR $CLONE_DIR $TARGET/$PROJECT
-chmod 777 $ROOT/scripts/$CLONE_DIR
 bash    $ROOT/scripts/$COMMIT $COMMIT $TARGET/$PROJECT
-chmod 777 $ROOT/scripts/$COMMIT
 
 bash    $ROOT/commands/pre-commit.sh pre-commit.sh $TARGET/$PROJECT
 chmod 777 $ROOT/commands/pre-commit.sh
