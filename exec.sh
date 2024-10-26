@@ -4,7 +4,7 @@ PROJECT=$2
 VOGSPHERE=$3
 GITHUB=$4
 TARGET=`pwd`
-ROOT="~/git-sync"
+ROOT=$0
 
 case $1 in
     start)
