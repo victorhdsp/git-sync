@@ -1,8 +1,9 @@
 #!/bin/bash
 
 FILE=$1
-VOGSPHERE=$2
-GITHUB=$3
+TARGET=$2
+VOGSPHERE=$3
+GITHUB=$4
 
 (
     echo "#!/bin/bash";
