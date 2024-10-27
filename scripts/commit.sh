@@ -14,7 +14,7 @@ TARGET=$2
     echo "    echo 'git push'"
     echo ") > $TARGET/tmp.sh"
 
-    echo "echo 'bash    $TARGET/tmp.sh'"
-    echo "echo 'rm      $TARGET/tmp.sh'"
+    echo "bash    $TARGET/tmp.sh"
+    echo "rm      $TARGET/tmp.sh"
 ) > $TARGET/$FILE
 
